@@ -1,0 +1,178 @@
+body {
+    background-image: url("svg_b1\ \(3\).jpg") ;
+    font-family: Poppins, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+   
+    
+}
+
+.title {
+    position: relative;
+    top: 9px;
+    left: 487px;   
+    /* display: flex; */
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgba(202, 211, 211,0.7); 
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color:black;
+    margin: 50px;
+    
+}
+.map{
+    background-color: rgba(249, 249, 250,0.5);
+    position: relative;
+     top: 45px;
+    /*width: 1400px;
+    left: 70px; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0,1);
+}
+  
+text {
+    font-size: 24px;
+    font-family: sans-serif;
+    pointer-events: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+g:hover rect {
+    fill: black;
+    
+}
+
+g:hover text {
+    fill:white;
+}
+#rect1,#rect2,#rect3,#rect4,#rect5,#rect6,#rect7{
+    transition: scale ease-in-out 0.5s;
+}
+#rect1:hover,#rect2:hover,#rect3:hover,#rect4:hover,#rect5:hover,#rect6:hover,#rect7:hover{
+    scale: 1.009;
+}
+
+footer{
+    position:relative; 
+    background: rgba(142, 139, 139, 0.801);
+    color: white;
+    line-height: 20px;
+    margin-top: 80px;
+}
+
+.row_container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    font-size: 13px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.column{
+    flex-basis: 25%;
+    padding: 5px;
+}
+
+#logo img{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    
+}
+
+.heading{
+    width: fit-content;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#contactus{
+    display: flex;
+}  
+
+.socials{
+    margin-left: 20px;
+    
+}
+
+.items img{
+    transition: scale ease-in-out 0.5s; 
+
+}
+
+.items img:hover{
+    scale:1.09;
+
+}
+
+.navbar{
+    position : fixed;
+   right:40px;
+   display: flex;
+   gap: 10px;
+   width: fit-content;
+   border-radius: 15px;
+ }
+
+ #HomeBtn,#GalleryBtn,#ContactUsBtn,#AboutUsBtn,#ShopWithUsBtn,#QuizBtn,#SiteBtn,#CommentBtn{
+ 
+   position: sticky;
+   margin-top: 4px;
+   color: white;
+   padding:5px;
+   border-radius: 10px;
+   font-family: poppins;
+ }
+ 
+ #HomeBtn:hover,#GalleryBtn:hover,#QuizBtn:hover,#AboutUsBtn:hover,#ShopWithUsBtn:hover,#SiteBtn:hover,#CommentBtn:hover{
+   background-color: rgba(255, 255, 255, 0.603);
+   border-radius: 30px;
+   color: rgba(0, 0, 0, 0.781);
+ }
+ .Top{
+   background-color: rgba(90, 166, 144, 0.897);
+   position: fixed;
+   /* border-radius: 80px;          vomment */
+   border-bottom-left-radius: 44px;
+   border-bottom-right-radius: 44px;
+   top:0;
+   box-shadow: 7px 0px 10px rgba(0, 0, 0, 0.459);
+   display:flex;
+   width: 100%;
+   z-index: 1;
+ 
+ }
+ #logo{
+   height: 80px;
+    margin-left: 5px; 
+ }
+ /*------------------------------------------------------------------------*/
+ ::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 30px;
+    display: flex;
+  }
+  ::-webkit-scrollbar-track {
+    background: #5a5a5a;
+  }
+ ::-webkit-scrollbar-thumb {
+    height: 30px;
+    background: #ffffff9a;
+    border-radius: 30px;
+  }

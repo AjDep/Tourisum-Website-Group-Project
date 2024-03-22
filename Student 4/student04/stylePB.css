@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: poppins;
+    font-size: 16px;
+     background: url("beach.jpg") no-repeat; 
+    background-size:cover;
+    background-attachment: fixed;
+}
+h1{
+    padding-bottom: 10px;
+}
+.info_and_tasks hr {
+    max-width: 20%;
+    margin: auto;
+    background-color: black;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+   
+}
+
+.info_and_tasks{
+    max-width: 80%;
+    margin: 5% 10%;
+    padding: 30px 10px;
+    background-color: rgb(86, 86, 91);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+    opacity: 0.9;
+    
+}
+.i1{
+    
+    width: 50%;
+    text-align: center;
+    background-color: rgb(222, 231, 231);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+
+}
+.main{
+    display: flex;
+    padding:20px;
+    
+}
+.bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}        
+.bottom a{
+    text-decoration: none;
+    color: black;
+    padding:20px;
+    /* outline: none; */
+    border:solid 2px transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(36, 196, 182);
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family: poppins;
+    
+}
+.bottom a:hover,
+.bottom a:focus{
+    border:solid 1px black;
+    background: white;
+    color:black;
+}
+
+.pages{
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+   /*--------------------navigation bar-----------------------------------*/ 
+   .navbar{
+    position : fixed;
+   right:40px;
+   display: flex;
+   gap: 10px;
+   width: fit-content;
+   border-radius: 15px;
+ }
+
+ #HomeBtn,#GalleryBtn,#ContactUsBtn,#AboutUsBtn,#ShopWithUsBtn,#QuizBtn,#SiteBtn,#CommentBtn{
+ 
+   position: sticky;
+   margin-top: 4px;
+   color: white;
+   padding:5px;
+   border-radius: 10px;
+   font-family: poppins;
+ }
+ 
+ #HomeBtn:hover,#GalleryBtn:hover,#QuizBtn:hover,#AboutUsBtn:hover,#ShopWithUsBtn:hover,#SiteBtn:hover,#CommentBtn:hover{
+   background-color: rgba(255, 255, 255, 0.603);
+   border-radius: 30px;
+   color: rgba(0, 0, 0, 0.781);
+ }
+ .Top{
+   background-color: rgba(108, 109, 109, 0.555);
+   position: fixed;
+   /* border-radius: 80px;          vomment */
+   border-bottom-left-radius: 44px;
+   border-bottom-right-radius: 44px;
+   top:0;
+   box-shadow: 7px 0px 10px rgba(0, 0, 0, 0.459);
+   display:flex;
+   width: 100%;
+   z-index: 1;
+ 
+ }
+ #logo{
+   height: 80px;
+    margin-left: 5px; 
+ }
+
+ /*-----------------------------footer------------------------------------------*/
+ .row_container{
+    display: flex;
+    font-family: poppins;
+    color: white;
+    font-size: small;
+    justify-content: space-evenly;
+  }
+  footer{
+    margin-top: 90px;
+    /* position: absolute; */
+    bottom: 0;
+    background-color: #000000b6;
+  
+  }
+  .headings{
+    font-size: smaller;
+  }
+  #editor_name1,#editor_name2,#editor_name3,#editor_name4,#editor_name5{
+    font-size: x-small;
+    transition: 0.3s ease-in-out;
+  }
+  .email,.socials{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 3px;
+  }
+  #facebook,#instagram,#Gmail{
+    padding-left: 5px;
+    scale:0.8;
+    transition: scale 0.5s ease-in-out;
+  }
+  #facebook:hover,#instagram:hover,#Gmail:hover{
+    scale:1;
+    background-color: #ffbf0e;
+    padding:8px;
+    border-radius: 5px;
+    /* color: rgb(255, 174, 0); */
+  }
+  .Fa{
+    color: white;
+  }
+  .names{
+    display: flex;
+    flex-direction: column;
+  }
+  #editor_name1:hover,#editor_name2:hover,#editor_name3:hover,#editor_name4:hover,#editor_name5:hover{
+    background-color: aliceblue;
+    color:#000000;
+    padding:3px;
+    border-radius: 10px;
+    font-size: small;
+  
+  }

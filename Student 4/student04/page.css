@@ -1,0 +1,24 @@
+h1{
+    font-size:40px;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
+}
+h2{
+    font-size: 30px;
+    font-weight: 550;
+}
+div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 0;
+    float: left;
+}
+body{
+    background:white;
+    background-image: url(https://img.freepik.com/free-vector/natural-background-with-blurred-grass-sky_88138-51.jpg?size=626&ext=jpg&ga=GA1.1.2116788652.1679573379&semt=ais);
+    background-size: cover;
+}

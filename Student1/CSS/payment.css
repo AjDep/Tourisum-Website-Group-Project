@@ -1,0 +1,72 @@
+body{
+    background-color: #444;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.Holderdetails{
+    display: flex;
+    flex-direction: column;
+}
+.CardDetails{
+    display: flex;
+    padding: 30px;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 211, 211);
+    width: fit-content;
+    font-family: poppins;
+    border-radius: 30px;
+    padding:50px;
+}
+.CheckOut{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 30px;
+}
+.INPUTS{
+    padding:10px;
+    border-radius: 10px;
+    border-style: none;
+}
+.LABEL{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.Exp,.CVV,.Card1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.Card1{
+    flex-direction: column;
+}
+#SUBMIT{
+    padding: 10px;
+    background-color: rgb(253, 166, 35);
+    
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    font-family: poppins;
+    font-size: small;
+}
+#SUBMIT:hover{
+    background-color: rgb(21, 155, 110);
+}
+#SUBMIT:active{
+    background-color: rgb(133, 214, 187);
+}
+.TotalCheckout{
+    font-family: poppins;
+}

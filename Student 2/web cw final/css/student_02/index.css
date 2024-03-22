@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: #444; */
+    background-size:cover; 
+}
+#link1,#link2,#link3,#link4{
+  color: white;
+  font-weight: 600;
+  padding: 20px;
+  transition: scale ease-in-out 0.05s;
+}
+#link1:hover,#link2:hover,#link3:hover,#link4:hover{
+  font-weight: 1000;
+  font-size: 13px;
+  scale: 1.05;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.introVideo{
+  margin-top: 85px;
+}
+.introIMG{
+  width: 400px;
+  height: 400px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+}
+.introIMG2{
+  width: 380px;
+  height: 400px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+}
+.intro{
+  width: 350px;
+}
+.Card1,.Card2,.Card3{
+display: flex;  
+flex-direction: column; 
+background: rgba(235, 235, 235, 0.23);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.9px);
+-webkit-backdrop-filter: blur(9.9px);
+border-radius: 30px;
+font-family: poppins;
+font-size: small;
+color: rgb(212, 211, 211);
+text-align: center;
+transition: -webkit-box-shadow ease-in-out 0.3s;
+
+}
+.Card1:hover,.Card2:hover,.Card3:hover,.Card4:hover,.Card5:hover,.CardMiddle:hover{
+
+
+  -webkit-box-shadow: 0px 0px 44px 7px rgba(255,255,255,0.68);
+  -moz-box-shadow: 0px 0px 44px 7px rgba(255,255,255,0.68);
+  box-shadow: 0px 0px 44px 7px rgba(255,255,255,0.68);
+}
+h3{
+  color: rgb(253, 253, 253);
+}
+.Card4,.Card5,.CardMiddle{
+  display: flex;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  text-align: center;
+background: rgba(235, 235, 235, 0.23);
+  
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.9px);
+  -webkit-backdrop-filter: blur(9.9px);
+  border-radius: 30px;
+  font-family: poppins;
+  font-size: small;
+  width: fit-content;
+  color: rgb(212, 211, 211);
+}
+.CardSet1{
+  display: flex;
+  margin-top: 80px;
+  flex-direction: row;
+  /* gap: 15px; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* align-items: center;*/
+  
+}
+.CardSet2{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  /* gap: 10px; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar{
+  width:12px;
+  height: 10px;
+  /* background-color: rgb(189, 189, 189); */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+  /* width:px; */
+  height: 12px;
+  background-color: rgba(206, 206, 206, 0.87);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(95, 95, 95, 0.74);
+}
+::-webkit-scrollbar-track {
+  background: #444444a2;
+}
+#mb1,#mb2{
+  background-color: rgb(255, 255, 255);
+  border-style: none;
+  padding: 10px;
+  border-radius:10px;
+  margin-top: 5px;
+}
+.Topic{
+  font-family: 'Montez', cursive;
+  color: white;
+  display: flex;
+  /* width: fit-content; */
+  align-items: center;
+  font-size: xxx-large;
+  justify-content: center;
+  text-align: center;
+}
+
+.CardMiddle{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#MiddleCardVideo{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.cardSet3{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.int{
+  width:450px;
+  padding-left: 40px;
+  padding-right:40px ;
+}
+.right{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+

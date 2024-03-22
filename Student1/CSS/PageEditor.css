@@ -1,0 +1,55 @@
+body{
+    font-family: 'Courier Prime', monospace;
+    overflow: hidden;
+
+    color: white;
+}
+.Window{
+    display: flex;
+    background-color: rgb(0, 15, 43);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    -webkit-box-shadow: 0px 0px 28px 4px rgba(255,255,255,0.66);
+   -moz-box-shadow: 0px 0px 28px 4px rgba(255,255,255,0.66);
+    box-shadow: 0px 0px 28px 4px rgba(255,255,255,0.66);
+
+}
+h2 {
+    text-decoration: underline;
+  }
+.Description{
+    overflow-y: scroll;
+    height: 570px;
+    padding: 30px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    padding:20px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 30px;
+    display: flex;
+  }
+  ::-webkit-scrollbar-track {
+    background: #b6b6b6;
+  }
+ ::-webkit-scrollbar-thumb {
+    height: 30px;
+    background: #4b4b4b;
+    border-radius: 30px;
+  }
+  a{
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+  }
+#gotopage:hover{
+    text-decoration: none;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}

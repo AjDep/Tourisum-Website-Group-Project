@@ -1,0 +1,117 @@
+body{
+    font-family: poppins;
+    padding: 10px;
+    margin: 0;
+    background-color: #444;
+    /* background-image: url("/Images/additnalimages/3.gif");
+     */
+    background-size: cover;
+    font-size: small;
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 30px;
+    display: flex;
+  }
+  ::-webkit-scrollbar-track {
+    background: #b6b6b6;
+  }
+ ::-webkit-scrollbar-thumb {
+    height: 30px;
+    background: #4b4b4b;
+    border-radius: 30px;
+  }
+  a{
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+  }
+.Tents,.Bagpacks,.Multi-tool,.Stoves{
+    display: flex;
+    width:300px;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.3px);
+    -webkit-backdrop-filter: blur(10.3px);
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 28px 4px rgba(255,255,255,0.66);
+    -moz-box-shadow: 0px 0px 28px 4px rgba(255,255,255,0.66);
+     box-shadow: 0px 0px 28px 4px rgba(255,255,255,0.66);
+   
+}
+.Tents:hover,.Bagpacks:hover,.Multi-tool:hover,.Stoves:hover{
+  -webkit-box-shadow: 0px 0px 28px 4px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 28px 4px rgb(255, 255, 255);
+     box-shadow: 0px 0px 28px 4px rgb(255, 255, 255);
+}
+#ImgTent,#ImgBagpacks,#ImgMultitool,#ImgStoves{
+ 
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Cards,.YoutubeChannles{
+  margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.TopC{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: fit-content;
+    padding:1px;
+}
+.Y1,.Y2,.Y3,.Y4{
+    border-radius: 30px;
+}
+#Dark,#Light,#Blue,#Grey{
+    padding:10px;
+    border-radius: 20px;
+    border-style: none;
+    margin: 10px;
+  }
+  #Dark{
+    background-color: #336342";
+  }
+  #Light{
+    background-color: #ffeab8;
+  }
+  #Blue{
+    background-color: #25011a;
+  }
+
+  .Tp{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    align-items: center;
+    padding: 0%;
+    height: 15px;
+    /* width: 200px; */
+  }
+  .Modes{
+    /* height: 100px; */
+    position: absolute;
+    top:100px;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.63);
+    padding:1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+  }
+  #P1{
+    width:1100px;
+  }
+
+  .content{
+    margin-top:50px;
+  }

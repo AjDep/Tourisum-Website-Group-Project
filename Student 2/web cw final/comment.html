@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="x-icon" href="logo/logo.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/student_02/comment.css">
+    <link rel="stylesheet" href="css/external/external.css"> 
+    <link rel="stylesheet" href="css/external/footer.css">
+    <script src="https://kit.fontawesome.com/2655a12a43.js" crossorigin="anonymous"></script>
+    <script src="javascript/student_02/comment.js"></script>
+    <title>Camper || Comment</title>
+    <style>
+        body{
+            background-image: url('images/student_02/comment_b1.jpg');
+        }
+    </style>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("40TjBZNGyw_a8rrrp");
+        })();
+    </script>
+    
+
+</head>
+<body>
+    <header>
+        <div class="Top" id="Top">
+            <div class="logo">
+               <img id="logo1" alt="logo" src="logo/logo.svg">
+            </div>
+         
+            <div id="navbar" class="navbar">
+                <a id="HomeBtn" href="/Student 2/web cw final/index.html" >Home</a>
+               <a id="AboutUsBtn" href="/Student 3/aboutus/indexFinal.html" >About Us</a>
+               <a id="ShopWithUsBtn" href="/Student1/ShoopingCart2/shop.html">Shop with us</a>
+               <a id="CommentBtn" href="/Student 2/web cw final/comment.html">Comment</a>
+               <a id="GalleryBtn" href="/Student 4/student04/index1.html">Gallery</a>
+               <a id="QuizBtn" href="/Student 3/quiz/indexT.html">Quiz</a>
+               <a id="SiteBtn" href="/Student 4/student04/svg3.html">Site Map</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="Modes" style="position: absolute;top:100px; left: 89%;display: flex;">
+        <div class="Tp"> <h6>Select your color pallet</h6></div>
+             <div class="Btns">
+         <button id="Dark"></button>
+         <button id="Blue"></button>
+         <button id="Ima"></button>
+        </div>
+     </div>
+    
+    <h2 id="head_word" style="text-align: center;color: white;font-family: poppins;">How Was your Experience ? </h2>
+    <form>   
+        <div class="Questions">
+            <div class="Question1">
+                <div id="q1">
+
+                    <div class="Q">
+                        <h2>Question 1</h2>
+                        <h3>How satisfied were you with us? Would you like to rate your experience?</h3>
+                    </div>
+
+                    <div class="A">
+                        <div id="raido_b">
+                            <div class="radio1">
+                                <input type="radio" name="rate" id="response1" value="very bad">
+                                <label id="bad" for="response1"><b>Bad</b></label>
+                            </div>
+                            
+                            <div class="radio2">
+                                <input type="radio" name="rate" id="response2" value="good">
+                                <label id="good" for="response2"><b>Good</b></label>
+                            </div>
+
+                            <div class="radio3">
+                                <input type="radio" name="rate" id="response3" value="excellent">
+                                <label id="execellent" for="response3"><b>Execellent</b></label>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Question2">
+                <div id="q2">
+                <div class="Q">
+                        <h2>Question 2</h2>
+                        <h3>Please could you tell us the reason Why you are giving this Rating ? </h3>
+                    </div>
+                    <div class="A">
+                        <textarea id="comment" placeholder="Write your comment......" required></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Question3">
+                <div id="q3">
+                    <div class="Q">
+                        <h2>Question 3</h2>
+                        <h3>How did you complete this task <br>Now  ? </h3>
+                    </div>
+                    <div class="A">
+                        <select id="menu1" required>
+                            <option id="default1" value="" disabled selected hidden>-- select --</option>
+                            <option value="Mobile">Mobile</option>
+                            <option value="Pc" >Computer</option>
+                            <option value="Tab" >Tablet</option>
+                            <option value="Web Chat" >Web Chat</option>
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="Question4">
+                <div id="q4">
+                    <div class="Q">
+                        <h2>Question 4</h2>
+                        <h3>How would you prefer to do this <br>task   ?</h3>
+                    </div>
+                    <div class="A">
+                        <select id="menu2" required >
+                            <option id="default2" value="" disabled selected hidden>-- select --</option>
+                            <option value="Pc" >Computer</option>
+                            <option value="Mobile">Mobile</option>
+                            <option value="Tab" >Tablet</option>
+                            <option value="Web Chat" >Web Chat</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="Question5">
+                <div id="q5" >
+                    <div class="Q">
+                        <h2>Question 5</h2>
+                        <h3>How did you find our Website  ?<br> <small>(Select the Answers)</small></h3>
+                    </div>
+                    <div class="Checkboxes">
+                        <div class="A_checkbox">
+                            <div class="C1">
+                                <input type="checkbox" name="check" id="youtube" value="youtube" >
+                                <label><b>youtube</b></label>
+                            </div>
+                            <div class="C2">
+                                <input type="checkbox"   name="check" id="facebook" value="facebook" >
+                                <label><b>Facebook</b></label>
+                            </div>
+                            <div class="C3">
+                                <input type="checkbox"  name="check" id="web_add" value="web_add">
+                                <label><b>web add</b></label>
+                            </div>
+                            <div class="C4">
+                                <input type="checkbox"  name="check" id="article" value="article">
+                                <label><b>Article</b></label>
+                            </div>
+                            <div class="C5">
+                                <input type="checkbox"  name="check" id="linkedIn" value="linkedIn" >
+                                <label><b>LinkedIn</b></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Question6">
+                <div id="q6">
+                    <div class="Q1">
+                        <div class="right_side">
+                            <label for="name"><b>Name : </b></label><br>
+                            <input id ="name" type="text" style="border-radius: 10px; height:30px;width: 230px; " size="20"  required>
+                        </div>
+                    </div>
+                    <div class="A1">
+                        <div class="left_side">
+                            <label for="email"><b>Email : </b></label><br>
+                            <input id ="email" type="email" style="border-radius: 10px; height:30px;width: 230px; " size="20" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <div class="reset">
+                    <input type="reset" id="resetBtn">
+                </div>
+                <div class="submit">
+                    <button type="button" id="submitBtn"  onclick="validation()">Submit</button>
+                    <div class="popup" id="popup">
+                        <img alt="tick" src="images/student_02/tick.png">
+                        <h2>Thank You!</h2>
+                        <p>Your details has been successfully submitted.</p>
+                        <button type="button" onclick="closePopup()">OK</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form> 
+    <footer>
+        <div class="row_container">
+            <div class="column" id="logo">
+                <img src="logo/logo.svg" style="width:100px;position:absolute;padding: bottom 10px;padding-top: 10px; left: 20px;">
+            </div>
+            <div class="column">
+                <div class="headings">
+                    <h2>Explore More...</h2>
+                </div>
+                <div class="items" id="s_item">
+                    <a class="Fa" href="/Student 2/web cw final/index.html" >Home</a><br>
+                    <a class="Fa" href="/Student 3/aboutus/indexFinal.html" >About Us</a><br>
+                    <a class="Fa" href="/Student 2/web cw final/comment.html">Comment</a><br>
+                    <a class="Fa" href="/Student 4/student04/index1.html">Gallery</a><br>
+                    <a class="Fa" href="/Student 4/student04/svg3.html">Site Map</a><br>
+                </div>
+            </div>
+            <div class="column" >
+                <div class="headings" id="contact">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="items" id="contactus">
+                    <div class="email">
+                        <h3>Email :</h3>
+                        <a  id="Gmail" href="mailto:camper.lk2023@gmail.com"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffffff;"></i></a>
+                    </div>
+                    <div class="socials">
+                        <h3>Socials :</h3>
+                        <a id="facebook"href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i></a>
+                        <a id="instagram"href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="headings">
+                    <h2>Team Members :</h2>
+                </div>
+                <div class="names">
+                    <a href="/Student 2/web cw final/content_st02.html" id="editor_name1">Tharusha Sandeepa</a><br>
+                    <a href="/Student 4/student04/page.html" id="editor_name2">Buthmi Mitharana</a><br>
+                   
+                    <a href="/Student1/AdditionalPageContent/Ad.html" id="editor_name3">Anjana Dep</a><br>
+                    <a href="/Student 3/content/indexW.html" id="editor_name4">Kusalni Danadeniya</a><br>
+                </div>
+            </div>
+            <div class="column">
+                <div class="headings">
+                    <h2>Page Editor :</h2>
+                </div>
+                <div class="names">
+                    <a href="/Student 2/web cw final/pageeditor_st02.html" id="editor_name5">Tharusha Sandeepa</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if ( document.documentElement.scrollTop > 10) {
+                document.getElementById("Top").style.transition= "background-color ease-in-out 0.5s";
+                document.getElementById("Top").style.backgroundColor = "rgba(90, 166, 144)";
+            } else {
+                document.getElementById("Top").style.backgroundColor = "rgba(108, 109, 109, 0.555)";
+            }
+        }
+
+        let poppup = document.getElementById("popup");
+        function openPopup(){
+            poppup.classList.add("open-popup");
+        }
+        
+        function closePopup(){
+            poppup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+</html>

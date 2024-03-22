@@ -1,0 +1,392 @@
+body {
+    
+    font-family: poppins;
+    margin:0;
+    padding:0;
+    background-color: #1c2d31;
+    /* background-size: 1510px 800px; */
+  }
+  
+  .navbar{
+    /* background-color: #444; vomment */
+    position : fixed;
+    /* top:0;   vomment */
+   right:40px;
+   display: flex;
+   gap: 10px;
+   width: fit-content;
+    /* padding:10px;   vomment */
+   border-radius: 15px;
+ }
+
+ #HomeBtn,#GalleryBtn,#ContactUsBtn,#AboutUsBtn,#ShopWithUsBtn,#QuizBtn,#SiteBtn,#CommentBtn{
+ 
+   position: sticky;
+   margin-top: 4px;
+   color: white;
+   padding:5px;
+   border-radius: 10px;
+   /* font-family: poppins; */
+   /* box-shadow: 7px 0px 10px rgba(0, 0, 0, 0.459);  vomment */
+ }
+ 
+ #HomeBtn:hover,#GalleryBtn:hover,#QuizBtn:hover,#AboutUsBtn:hover,#ShopWithUsBtn:hover,#SiteBtn:hover,#CommentBtn:hover{
+   background-color: rgba(255, 255, 255, 0.603);
+   border-radius: 30px;
+   color: rgba(0, 0, 0, 0.781);
+ }
+ .Top{
+   background-color: rgba(108, 109, 109, 0.555);
+   position: fixed;
+   /* border-radius: 80px;          vomment */
+   border-bottom-left-radius: 44px;
+   border-bottom-right-radius: 44px;
+   top:0;
+   box-shadow: 7px 0px 10px rgba(0, 0, 0, 0.459);
+   display:flex;
+   width: 100%;
+   z-index: 1;
+ 
+ }
+ #logo1{
+   height: 80px;
+    margin-left: 5px; 
+ }
+ a{
+  text-decoration: none;
+ }
+ /*------------------------------------------------------------------------*/
+  
+  /* Image Gallery*/
+  .ImageGallery{
+    margin-top: 50px;
+    font-family: 'Montez', cursive;
+    font-size:20px;
+    padding:20px;
+    color: white;
+  }
+  p.outset {border-style: outset;}
+  .cards {
+    overflow: hidden;
+  }
+  
+  .cardSet1 {
+    animation: r 36s linear infinite;
+    display: flex;
+  }
+  
+  .cardSet2 {
+    animation: b 36s linear infinite;
+    display: flex;
+    margin-top: 30px;
+  }
+  .cardSet2:hover{
+    animation:none;
+    overflow-x: scroll;
+  
+  }
+  .cardSet1:hover{
+    animation:none;
+    overflow-x: scroll;
+  
+  }
+  
+  @keyframes b {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }
+  
+  @keyframes r {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  
+  #myImg1,#myImg2,#myImg3,#myImg4,#myImg5,#myImg6,#myImg7,#myImg8,#myImg9,#myImg10,#myImg11,#myImg12 {
+    display: flex;
+    border-radius: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+  }
+  
+  div.Text{
+   
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    border-radius: 30px;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: scroll; /* Enable scroll if needed */
+    background-color:black; /* Fallback color */
+    background-color: #2b2b2b;
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    font-family: poppins;
+    display: flex;
+    width: 50vw;
+    max-width: 700px;
+    overflow-y: scroll;
+    float: left;
+    object-position: center;
+    
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    text-align:justify;
+    color: white;  /*text colour*/
+    padding: 10px 0;
+    min-height: 100vh;
+    justify-content: center;
+  
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only scren and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  .container{
+    position: absolute;
+    top: 40px;
+    right: 90px;
+    background-color: #bbbbbb7e;
+    margin:10px;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+    position: relative;
+      
+  }
+  
+  .container .buttons{
+    width: 100%;
+    position:absolute;
+    right: 100px;
+    top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .container .buttons .button{
+    padding: 3px 10px;
+    margin-left: 10px;
+    display: inline-block;
+    background: rgb(184, 181, 181);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .container .buttons .button:nth-child(2){
+    font-size: 23px;
+  }
+  
+  .container .buttons .button:nth-child(3){
+    font-size: 27px;
+  }
+  
+  .container .buttons .active{
+    background: black;
+  }
+  
+  .container .text{
+    margin: 5rem 0;
+  }
+  
+  .container .text caption{
+    text-align: justify;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+  
+  
+  .container:hover{
+    background-color: #eeeeeec4;
+    color: #2b2b2b;
+    -webkit-box-shadow: 0px 0px 69px 0px rgb(255, 255, 255);
+  -moz-box-shadow: 0px 0px 69px 0px rgba(255, 255, 255, 0.973);
+  box-shadow: 0px 0px 69px 0px rgb(255, 255, 255);
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    display: flex;
+  }
+  ::-webkit-scrollbar-track {
+    background: #b6b6b600;
+  }
+  ::-webkit-scrollbar-thumb {
+    height: 10px;
+    background: #d8d8d8;
+    border-radius: 30px;
+  }
+  #Dark,#Light,#Blue,#Grey{
+    padding:10px;
+    border-radius: 20px;
+    border-style: none;
+    margin: 10px;
+  }
+  #Dark{
+    background-color: #1c2d31;
+  }
+  #Light{
+    background-color: #ffeab8;
+  }
+  #Blue{
+    background-color: #25011a;
+  }
+  #Grey{
+    background-color: #2b2b2b;
+  
+  }
+  .Tp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    height: 15px;
+  }
+  .Modes{
+    /* height: 100px; */
+    background-color: rgba(255, 255, 255, 0.63);
+    padding:1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 91px 0px rgba(255,242,255,0.79);
+  -moz-box-shadow: 0px 0px 91px 0px rgba(255,242,255,0.79);
+  box-shadow: 0px 0px 91px 0px rgba(255,242,255,0.79);
+  }
+  
+  /*-------------------------------footer------------------------------------------*/
+  .row_container{
+    display: flex;
+    font-family: poppins;
+    color: white;
+    font-size: small;
+    justify-content: space-evenly;
+  }
+  footer{
+    margin-top: 90px;
+    /* position: absolute; */
+    bottom: 0;
+    background-color: #000000b6;
+  
+  }
+  .headings{
+    font-size: smaller;
+  }
+  #editor_name1,#editor_name2,#editor_name3,#editor_name4,#editor_name5{
+    font-size: x-small;
+    transition: 0.3s ease-in-out;
+  }
+  .email,.socials{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 3px;
+  }
+  #facebook,#instagram,#Gmail{
+    padding-left: 5px;
+    scale:0.8;
+    transition: scale 0.5s ease-in-out;
+  }
+  #facebook:hover,#instagram:hover,#Gmail:hover{
+    scale:1;
+    background-color: #ffbf0e;
+    padding:8px;
+    border-radius: 5px;
+    /* color: rgb(255, 174, 0); */
+  }
+  .Fa{
+    color: white;
+  }
+  .names{
+    display: flex;
+    flex-direction: column;
+  }
+  #editor_name1:hover,#editor_name2:hover,#editor_name3:hover,#editor_name4:hover,#editor_name5:hover{
+    background-color: aliceblue;
+    color:#000000;
+    padding:3px;
+    border-radius: 10px;
+    font-size: small;
+  
+  }
