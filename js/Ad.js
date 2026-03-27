@@ -1,8 +1,8 @@
 var images1 = [
-    "/Student1/Images/additnalimages/1.webp",
-    "/Student1/Images/additnalimages/2.webp",
-    "/Student1/Images/additnalimages/3.webp",
-    "/Student1/Images/additnalimages/4.webp",
+    "images/additnalimages/1.webp",
+    "images/additnalimages/2.webp",
+    "images/additnalimages/3.webp",
+    "images/additnalimages/4.webp",
   
   ];
   var index1 = 0;
@@ -21,10 +21,10 @@ var images1 = [
   setInterval(changeImage1, 2000);
 
   var images2 = [
-    "/Student1/Images/additnalimages/5.webp",
-    "/Student1/Images/additnalimages/6.webp",
-    "/Student1/Images/additnalimages/7.webp",
-    "/Student1/Images/additnalimages/8.webp",
+    "images/additnalimages/5.webp",
+    "images/additnalimages/6.webp",
+    "images/additnalimages/7.webp",
+    "images/additnalimages/8.webp",
  
   ];
 var index2 = 0;
@@ -44,10 +44,10 @@ setInterval(changeImage2, 2000);
 
 
 var images3 = [
-    "/Student1/Images/additnalimages/9.webp",
-    "/Student1/Images/additnalimages/10.webp",
-    "/Student1/Images/additnalimages/11.webp",
-    "/Student1/Images/additnalimages/13.webp",
+    "images/additnalimages/9.webp",
+    "images/additnalimages/10.webp",
+    "images/additnalimages/11.webp",
+    "images/additnalimages/13.webp",
 ];
 var index3 = 0;
 function changeImage3() {
@@ -65,10 +65,10 @@ function changeImage3() {
 setInterval(changeImage3, 2000);
 
 var images4 = [
-    "/Student1/Images/additnalimages/14.webp",
-    "/Student1/Images/additnalimages/15.webp",
-    "/Student1/Images/additnalimages/16.webp",
-    "/Student1/Images/additnalimages/17.webp",
+    "images/additnalimages/14.webp",
+    "images/additnalimages/15.webp",
+    "images/additnalimages/16.webp",
+    "images/additnalimages/17.webp",
 ];
 var index4 = 0;
 function changeImage4() {
