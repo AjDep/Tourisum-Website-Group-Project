@@ -1,6 +1,6 @@
 body{
     font-family: 'Courier Prime', monospace;
-    overflow: hidden;
+    /* overflow: hidden; */
 
     color: white;
 }

@@ -770,3 +770,9 @@ flex-direction: column;
 .Price{
     color: red;
 }
+.row_container{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
